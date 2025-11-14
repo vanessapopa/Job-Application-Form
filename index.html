@@ -12,14 +12,30 @@
     <div class="container">
         <h1>Job Application Form</h1>
         <form>
+            
             <label for="name">Name:</label>
+            <br>
             <input type="text" id="name" placeholder="Please enter your name"></input>
 
             <br>
             <br>
-
             <label for="email">Email:</label>
+            <br>
             <input type="text" id="email" placeholder="Please enter your email address"></input>
+
+            <br>
+            <br>
+
+            <label for="position">Position:</label>
+            <br>
+            <select id="position">
+                <option value="" disabled selected>Select a position</option>
+                <option value="software-developer">Software Developer</option>
+                <option value="data-analyst">Data Analyst</option>
+                <option value="project-manager">Project Manager</option>
+                <option value="designer">Designer</option>
+                <option value="qa-engineer">QA Engineer</option>
+            </select>
         </form>
     </div>
 
