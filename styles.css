@@ -19,3 +19,11 @@ button {
 button:hover {
     background-color: blue;
 }
+
+h1 {
+    font-family: monospace;
+}
+
+input[type="text"], textarea, select, button {
+    width: 500px;
+}
