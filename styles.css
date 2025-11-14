@@ -1,0 +1,21 @@
+input:focus, textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    border-color: red;
+    outline: none;
+}
+
+input:valid, textarea:valid, select:valid {
+    border-color: green;
+    outline: none;
+}
+
+button {
+    background-color: rgb(138, 175, 255);
+}
+button:hover {
+    background-color: blue;
+}
