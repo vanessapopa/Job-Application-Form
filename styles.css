@@ -39,9 +39,16 @@ input[type="text"], textarea, select, button {
     width: 500px;
 }
 
+.radio-group {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
 .radio-group input[type="radio"]:checked {
     accent-color: green;
-    border-color: blue;
+    border-color: green;
     box-shadow: inset 0 0 5px blue;
 }
 
