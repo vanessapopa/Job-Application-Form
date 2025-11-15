@@ -40,8 +40,8 @@ input[type="text"], textarea, select, button {
 }
 
 .radio-group {
-    border: 2px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    padding: auto;
     border-radius: 7px;
 }
 
