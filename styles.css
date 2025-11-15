@@ -1,27 +1,38 @@
 input:focus, textarea:focus {
     border-color: blue;
     outline: none;
+    border-radius: 7px;
 }
 
 input:invalid, textarea:invalid, select:invalid {
     border-color: red;
     outline: none;
+    border-radius: 7px;
 }
 
 input:valid, textarea:valid, select:valid {
     border-color: green;
+    border-radius: 7px;
     outline: none;
 }
 
 button {
-    background-color: rgb(138, 175, 255);
+    background-color: rgb(179, 201, 249);
+    border-radius: 7px;
 }
 button:hover {
-    background-color: blue;
+    background-color: rgb(98, 98, 226);
+    border-radius: 7px;
 }
 
 h1 {
     font-family: monospace;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 input[type="text"], textarea, select, button {
