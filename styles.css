@@ -27,3 +27,17 @@ h1 {
 input[type="text"], textarea, select, button {
     width: 500px;
 }
+
+.radio-group input[type="radio"]:checked {
+    accent-color: green;
+    border-color: blue;
+    box-shadow: inset 0 0 5px blue;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: green;
+}
+
+input[type="text"]:first-of-type {
+    background-color: lightyellow;
+}
