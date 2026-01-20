@@ -45,6 +45,23 @@ input[type="text"], textarea, select, button {
     padding: 10px;
 }
 
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+.radio-group input[type="radio"]:checked {
+    accent-color: green;
+}
+
+
 .radio-group {
     border: 1px solid black;
     padding: auto;
